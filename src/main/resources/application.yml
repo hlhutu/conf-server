@@ -8,13 +8,13 @@ server:
 
 spring:
   application:
-    name: conf-server  # Ó¦ÓÃÃû³Æ
+    name: conf-server  # åº”ç”¨åç§°
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/hlhutu/conf-server #ÅäÖÃÎÄ¼şËùÔÚ²Ö¿â
-          username: hlhutu@163.com #µÇÂ¼ÕËºÅ
-          password: nocturne1997 #µÇÂ¼ÃÜÂë
-          default-label: master #ÅäÖÃÎÄ¼ş·ÖÖ§
-          search-paths: springcloudstudy  #ÅäÖÃÎÄ¼şËùÔÚ¸ùÄ¿Â¼
+          uri: https://github.com/hlhutu/conf-server #é…ç½®æ–‡ä»¶æ‰€åœ¨ä»“åº“
+          username: hlhutu@163.com #ç™»å½•è´¦å·
+          password: nocturne1997 #ç™»å½•å¯†ç 
+          default-label: master #é…ç½®æ–‡ä»¶åˆ†æ”¯
+          search-paths: springcloudstudy  #é…ç½®æ–‡ä»¶æ‰€åœ¨æ ¹ç›®å½•
